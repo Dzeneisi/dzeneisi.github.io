@@ -772,7 +772,7 @@ button.tm-more-button {
     .phoneContent {display:none;}
 }
 
-@media all and (max-width: 479px) {
+@media all and (max-width: 768px) {
     .deskContent {display:none;}
     .phoneContent {display:block;}
 }
