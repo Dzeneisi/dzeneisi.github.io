@@ -776,15 +776,3 @@ button.tm-more-button {
     .deskContent {display:none;}
     .phoneContent {display:block;}
 }
-
-.blurredElement {
-
-     /* Any browser which supports CSS3 */
-    filter: blur(420px);
-
-    /* Firefox version 34 and earlier */
-    filter: url("blur.svg#gaussian_blur");
-
-    /* Webkit in Chrome 52, Safari 9, Opera 39, and earlier */
-    -webkit-filter: blur(420px);
-}
