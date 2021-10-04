@@ -767,30 +767,12 @@ button.tm-more-button {
   .tm-welcome-content { margin-bottom: 60px; }
 }
 
-.mobile-articles {
+    @media all and (min-width: 480px) {
+    .deskContent {display:block;}
+    .phoneContent {display:none;}
+}
 
-            visibility:hidden;
-            display: none;
-        }
-
-
-    @media (max-width: 3840px) and (min-width: 480px) {
-
-      @viewport {
-        width: device-width;
-      }
-
-
-    }
-
-    @media screen and (max-width : 3840px) {
-
-        .mobile-articles {
-
-            visibility:visible;
-            display: block;
-
-        }
-
-    }   
-
+@media all and (max-width: 479px) {
+    .deskContent {display:none;}
+    .phoneContent {display:block;}
+}
