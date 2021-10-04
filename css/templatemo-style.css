@@ -767,7 +767,7 @@ button.tm-more-button {
   .tm-welcome-content { margin-bottom: 60px; }
 }
 
- .mobile-articles {
+.mobile-articles {
 
             visibility:hidden;
             display: none;
@@ -793,5 +793,4 @@ button.tm-more-button {
         }
 
     }   
-    </style>
 
