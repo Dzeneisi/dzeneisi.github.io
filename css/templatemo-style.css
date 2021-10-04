@@ -774,7 +774,7 @@ button.tm-more-button {
         }
 
 
-    @media (max-width: 414px) and (min-width: 367px) {
+    @media (max-width: 3840px) and (min-width: 480px) {
 
       @viewport {
         width: device-width;
@@ -783,7 +783,7 @@ button.tm-more-button {
 
     }
 
-    @media screen and (max-width : 414px) {
+    @media screen and (max-width : 3840px) {
 
         .mobile-articles {
 
