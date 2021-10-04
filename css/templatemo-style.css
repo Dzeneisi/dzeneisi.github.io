@@ -767,7 +767,7 @@ button.tm-more-button {
   .tm-welcome-content { margin-bottom: 60px; }
 }
 
-@media all and (min-width: 480px) {
+@media all and (min-width: 768px) {
     .deskContent {display:block;}
     .phoneContent {display:none;}
 }
